@@ -12,12 +12,13 @@ class PositionMultScreen:
     def Run(self):
         time.sleep(2)
         for i in range (3):
-            Pos().EnableExtension()
             if i == 0:
                 Pos().Sent2Third()
+                time.sleep(1)
                 ST3().MaxWindow()
             if i == 1:
-                Pos().Sent2Third()
+                Pos().Sent2First()
+                time.sleep(1)
                 ST1().MaxWindow()
             if i == 2:
                 Pos().EnableExtension()
