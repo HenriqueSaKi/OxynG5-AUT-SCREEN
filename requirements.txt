@@ -1,0 +1,5 @@
+selenium~=3.141.0
+PyAutoGUI~=0.9.50
+pyinstaller~=4.0
+datetime~=4.3
+webdriver-manager~=3.2.2
