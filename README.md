@@ -65,26 +65,26 @@
 
 ## Run Application :arrow_forward: 
 <div align="center">
-    <img src="/Readme-Images/setup.gif" width="480" height="270">
+    <img src="./setup.gif" width="480" height="270">
 </div>
 </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;First of all, the program have to have a account configured into each <b>"TelaX.py"</b>. So, you'll need to modify the code, like represented below in rows highlighted with the <u>breakpoint</u>:
 </br>
 <div align="center">
-    <img src="/Readme-Images/login.PNG" width="526.5" height="188">
+    <img src="./login.JPG" width="526.5" height="188">
 </div></br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After followed the steps until here, there are two ways to run the application: </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Clicking on it and executing with "python", like the example below:</br>
 
 <div align="center">
-    <img src="/Readme-Images/selecting-python.png" width="520.5" height="219.5">
+    <img src="./selecting-python.png" width="520.5" height="219.5">
 </div></br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Or transforming main script into a standalone program. Bellow there are some steps explaining how do you can do it.</br> 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1- Press ```win``` + ```r```</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2- Access your current path(where your scripts are installed) using the command ```cd <current path>```</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3- Inside your current path, execute the command ```pyinstaller <main file.py> --onefile```</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3- Inside your current path, execute the command ```pyinstaller <main file.py> --onefile --icon=oxyn.ico```</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4- Double click the program inside "dist" folder.</br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now, you just have to wait the program execute its function.
