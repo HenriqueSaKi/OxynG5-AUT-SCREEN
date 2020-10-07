@@ -47,47 +47,12 @@
 </br>
 
 - Frameworks:</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The following topics will present the basic form about how to install some libraries that are included in it's program in your Windows OS.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The following steps will present the basic form about how to install all libraries included in it's project in your Windows OS.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1- Press ```win``` + ```r```</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2- Access your current path(where your scripts are installed) using the command ```cd <current path>```</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3- Inside your current path, execute the command ```pip install -r requirements.txt```</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4- Press ```enter``` and wait installation process
 
-    - Datetime:</br>
-
-    ```
-    python -m pip install datetime
-    ```
-    
-    - Pyautogui:</br>
-    
-    ##### Windows
-    
-    ```
-    python -m pip install pyautogui
-    ```
-    
-    On macOS and Linux, you need to run ```python3```:
-    ##### macOS and Linux
-    
-    ```
-    python3 -m pip install pyautogui
-    ```
-    
-    On Linux, additionally you need to install the ```scrot``` application, as well as Tkinter:
-    ##### Linux
-    
-    ```
-    sudo apt-get install scrot
-
-    sudo apt-get install python3-tk
-
-    sudo apt-get intall python3-dev
-    ```
-    
-    - Selenium:</br>
-    
-    ##### Command for Windows users:
-    
-    ```
-    python -m pip install selenium
-    ```
 
 ## Links :link:
 #### Program
@@ -103,17 +68,25 @@
     <img src="/Readme-Images/setup.gif" width="480" height="270">
 </div>
 </br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;First of all, the program must to have a login account configured. So, you'll need to modify the code. Like represented below in the rows highlighted with the <u>breakpoint</u>:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;First of all, the program have to have a account configured. So, you'll need to modify the code, like represented below in rows highlighted with the <u>breakpoint</u>:
 </br>
 <div align="center">
     <img src="/Readme-Images/login.PNG" width="526.5" height="188">
 </div></br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After followed the steps until here, you can easily run the application, just clicking on it and executing with "python", like the example below:</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After followed the steps until here, there are two ways to run the application: </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Clicking on it and executing with "python", like the example below:</br>
 
 <div align="center">
     <img src="/Readme-Images/selecting-python.png" width="520.5" height="219.5">
 </div></br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Or transforming main script into a standalone program. Bellow there are some steps explaining how do you can do it.</br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1- Press ```win``` + ```r```</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2- Access your current path(where your scripts are installed) using the command ```cd <current path>```</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3- Inside your current path, execute the command ```pyinstaller <main file.py> --onefile```</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4- Double click the program inside "dist" folder.</br>
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now, you just have to wait the program execute its function.
 </br></br>
 Document developed in HTML5 and Markdown by Henrique S. Kisaki
