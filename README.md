@@ -68,7 +68,7 @@
     <img src="/Readme-Images/setup.gif" width="480" height="270">
 </div>
 </br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;First of all, the program have to have a account configured. So, you'll need to modify the code, like represented below in rows highlighted with the <u>breakpoint</u>:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;First of all, the program have to have a account configured into each <b>"TelaX.py"</b>. So, you'll need to modify the code, like represented below in rows highlighted with the <u>breakpoint</u>:
 </br>
 <div align="center">
     <img src="/Readme-Images/login.PNG" width="526.5" height="188">
